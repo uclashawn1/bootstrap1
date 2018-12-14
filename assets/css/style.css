@@ -1,0 +1,143 @@
+body {
+    background-image: url(../../assets/gravel/gravel.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 100%;
+}
+
+div.wrapper {
+    width: 80%;
+    border-style: groove;
+    margin: auto;
+    padding: 0px, 50px;
+    background-color: rgba(132, 221, 217, 0.507);
+    background-repeat: repeat-y;
+    height: 100%;
+}
+
+
+div ~ a {
+  float: right;
+  
+}
+
+div > form {
+  padding: 50px, 50px;
+}
+
+div > #w3-third {
+  float: left;
+  height: 25%;
+}
+
+div > #w3-twothird {
+  float: right;
+  height: 25%;
+}
+  
+h1 {
+    color:whitesmoke;
+    background-color: forestgreen; 
+    text-transform: uppercase;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+   
+h3 {
+    color: forestgreen;
+    background-color: rgba(132, 221, 217, 0.507);
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+div > p {
+    background-color: rgba(132, 221, 217, 0.507);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border: none;
+    box-align: center;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    font: xx-small;
+    text-align: center;
+    background-color: rgba(132, 221, 217, 0.507);
+    }
+
+#container {
+  max-width: 960px;
+}
+
+div > img {
+    display: inline-block;
+    width: 150px;
+    height: auto;
+}
+
+/* @media only screen and (min-width:980px){} */
+/* @media only screen and (max-width:768){} */
+/* @media only screen and (max-width:640){} */
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 980px) {
+  .responsive {
+    width: 100%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .responsive {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+    .responsive {
+      width: 50%;
+    }
+  }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}

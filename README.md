@@ -1,2 +1,2 @@
-# bootstrap1
-bootstrap portfolio
+# basic_portfolio
+Homework Week 1
