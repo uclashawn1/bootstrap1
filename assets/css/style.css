@@ -3,49 +3,54 @@ body {
     background-repeat: repeat-y;
     background-size: cover;
     height: 100%;
+    margin: 10px;
 }
 
-div.wrapper {
-    width: 80%;
-    border-style: groove;
+
+#afterheader {
+  padding: 25px;
+  }
+
+.wrapper {
+    width: 90%;
     margin: auto;
-    padding: 0px, 50px;
     background-color: rgba(132, 221, 217, 0.507);
-    background-repeat: repeat-y;
     height: 100%;
-}
+    }
 
 
-div ~ a {
+/* div ~ a {
   float: right;
   
-}
+} */
 
-div > form {
-  padding: 0px, 50px;
+.form1 {
+  height: 100%;
 }
 
 div > w3-third {
   float: left;
-  height: 25%;
 }
 
 div > w3-twothird {
   float: right;
-  height: 25%;
 }
 /* gonna change from div > w3 to col > w3 */
 /* trying to get 1st row's col1 to align left and col2 to align right */
   
-h1 {
-    color:whitesmoke;
-    background-color: forestgreen; 
-    text-transform: uppercase;
-    display: inline;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
+div.newh1 > p {
+  font-size: 5vw;
+  font-weight: bold;
+  color:whitesmoke;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
 }
-   
+
+button.navbar-toggler.a {
+  text-decoration: none;
+}
+/* Not sure why this didn't remove the underline? */
+
 h3 {
     color: forestgreen;
     background-color: rgba(132, 221, 217, 0.507);
@@ -54,7 +59,8 @@ h3 {
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-}
+} 
+/* Need to re-establish css for bootstrapCSS */
 
 div > p {
     background-color: rgba(132, 221, 217, 0.507);
@@ -69,9 +75,11 @@ form {
     border: none;
     float: left;
     box-align: center;
+    height: 100%;
 }
 
 footer {
+  padding: 25px;
     border-top: 8px solid #4aaaa5;
     font: xx-small;
     text-align: center;
@@ -79,9 +87,7 @@ footer {
     }
 /* need to get bottom of wrapper to stretch full screen */
 
-#container {
-  max-width: 960px;
-}
+
 /* don't think I need this containerID anymore */
 
 div > img {
@@ -111,15 +117,13 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+/* desc = description */
 
 * {
   box-sizing: border-box;
 }
 
-.responsive {
-  padding: 0 6px;
-  width: 24.99999%;
-}
+
 
 @media only screen and (max-width: 980px) {
   .responsive {
